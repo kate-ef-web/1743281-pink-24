@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=1200" , initial-scale="1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>HTML Academy: Pink</title>
 </head>
 
@@ -14,6 +15,9 @@
         <img class="logo__pic" src="img/mainpage/pink.png" alt="Проект Пинк">
       </a>
     </div>
+    <h2 class="page__title">
+      Взгляните на жизнь иначе!
+    </h2>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"></button><span class="visually-hidden">Открыть меню</span>
       <ul class="main-nav__list">
@@ -36,9 +40,6 @@
     <h1 class="visually-hidden">Проект «Пинк» — мы раскрасим мир вокруг</h1>
     <section class="promo">
       <div class="promo__wrapper">
-        <h2 class="promo__tagline">
-          Взгляните на жизнь иначе!
-        </h2>
         <div class="download">
           <button class="download__button button">Скачать приложение</button>
           <ul class="download__list">
@@ -55,25 +56,28 @@
         <h2 class="advantages__tagline">Устали от серости мегаполиса?<br>
           Нам есть, что вам предложить!
         </h2>
-        <ul class="advantages__list">
-          <li class="advantages__item">
-            <h4 class="advantages__title">Поднимает настроение</h4>
-            <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в
-              несколько кликов!</p>
-          </li>
-          <li class="advantages__item">
-            <h4 class="advantages__title">Меняет мир вокруг</h4>
-            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
-              усилить эффект</p>
-          </li>
-          <li class="advantages__item">
-            <h4 class="advantages__title">Заводит новых друзей</h4>
-            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите
-              новых</p>
-          </li>
-        </ul>
-        <div class="advantages__picture">
-          <img src="img/mainpage/hi.png" alt="Всем привет">
+        <div class="advantages__box">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <h4 class="advantages__title">Поднимает настроение</h4>
+              <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в
+                несколько кликов!</p>
+            </li>
+            <li class="advantages__item">
+              <h4 class="advantages__title">Меняет мир вокруг</h4>
+              <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+                усилить эффект</p>
+            </li>
+            <li class="advantages__item">
+              <h4 class="advantages__title">Заводит новых друзей</h4>
+              <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
+                заводите
+                новых</p>
+            </li>
+          </ul>
+          <div class="advantages__picture">
+            <img src="img/mainpage/hi.png" alt="Всем привет">
+          </div>
         </div>
       </div>
     </section>
@@ -81,24 +85,6 @@
       <div class="reviews__wrapper slider">
         <h2 class="visually-hidden">Отзывы о нас</h2>
         <div class="reviews__list slider__list">
-          <blockquote class="reviews__item slider__item">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name">Николай Петров</cite>
-              <p class="reviews__text">
-                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-                познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-              </p>
-            </div>
-          </blockquote>
-          <blockquote class="reviews__item slider__item">
-            <div class="reviews__author-info">
-              <cite class="reviews__author-name">Николай Петров</cite>
-              <p class="reviews__text">
-                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
-                познакомился со своей будущей женой в комментариях к выложенной фотографии!»
-              </p>
-            </div>
-          </blockquote>
           <blockquote class="reviews__item slider__item">
             <div class="reviews__author-info">
               <cite class="reviews__author-name">Николай Петров</cite>
@@ -174,7 +160,8 @@
       </div>
       <div class="page-footer__copyright copyright">
         <p class="copyright__text">Разработано</p>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img src="img/mainpage/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img
+            src="img/mainpage/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>
       </div>
     </div>
   </footer>

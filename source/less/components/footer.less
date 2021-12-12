@@ -16,9 +16,13 @@
   margin-bottom: 53px;
 }
 
-.socials__item:not(:last-child) {
+.socials__item {
   display: inline-flex;
   margin-right: 14px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .copyright__text {

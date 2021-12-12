@@ -8,208 +8,219 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
-    <div class="page-header__header">
-      <div class="page-header__logo">
-        <a class="logo">
-          <img class="logo__pic" src="img/catalog/pink.png" alt="Проект Пинк">
-        </a>
-      </div>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"></button><span class="visually-hidden">Открыть меню</span>
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__item">Главная</a>
-          </li>
-          <li class="main-nav__list">
-            <a href="#" class="main-nav__item">Фотографии</a>
-          </li>
-          <li class="main-nav__list">
-            <a href="#" class="main-nav__item">Конкурс</a>
-          </li>
-          <li class="main-nav__list">
-            <a href="#" class="main-nav__item">Html Academy</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <h2 class="page-header__title">Фотографии пользователей</h2>
-  </header>
+  <div class="wrapper">
+    <div class="wrapper__content">
+      <header class="page-header">
+        <div class="page__container">
+          <div class="page-header__logo">
+            <a class="logo">
+              <img class="logo__pic" src="img/mainpage/pink.png" alt="Проект Пинк">
+            </a>
+          </div>
+          <h2 class="page__title">
+            Фотографии пользователей
+          </h2>
+          <nav class="main-nav">
+            <button class="main-nav__toggle" type="button"></button><span class="visually-hidden">Открыть меню</span>
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__item">Главная</a>
+              </li>
+              <li class="main-nav__list">
+                <a href="#" class="main-nav__item">Фотографии</a>
+              </li>
+              <li class="main-nav__list">
+                <a href="#" class="main-nav__item">Конкурс</a>
+              </li>
+              <li class="main-nav__list">
+                <a href="#" class="main-nav__item">Html Academy</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-  <main class="page-main">
-    <h1 class="visually-hidden">Страница пользователей</h1>
-    <section class="foto">
-      <div class="foto__wrapper">
-        <h3 class="foto__title">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</h3>
-        <ul class="foto__list">
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/panorama-tablet.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Анна</p>
-                <p class="foto__date">(5 минут назад)</p>
+      <main class="page-main">
+        <h1 class="visually-hidden">Страница пользователей</h1>
+        <section class="foto">
+          <p class="foto__title">
+            Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает
+            ваших?
+          </p>
+          <ul class="foto__list">
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/panorama-tablet.jpg" alt="Фото пользователя">
               </div>
-              <div class="foto__text">
-                <p>Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Анна</p>
+                  <p class="foto__date">(5 минут назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе,
+                    задавайте свои вопросы!</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 215</p>
+                </div>
               </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 215</p>
+            </li>
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/photo-1-mobile.jpg" alt="Фото пользователя">
               </div>
-            </div>
-          </li>
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/photo-1-mobile.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Левон</p>
-                <p class="foto__date">(5 часов назад)</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Левон</p>
+                  <p class="foto__date">(5 часов назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Вчера он на луну летал, сегодня в руки к нам попал.</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 356</p>
+                </div>
               </div>
-              <div class="foto__text">
-                <p>Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            </li>
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/photo-2-mobile.jpg" alt="Фото пользователя">
               </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 356</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Антон</p>
+                  <p class="foto__date">(12 часов назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Соседи будут рады!</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 666</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/photo-2-mobile.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Антон</p>
-                <p class="foto__date">(12 часов назад)</p>
+            </li>
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/photo-3-tablet.jpg" alt="Фото пользователя">
               </div>
-              <div class="foto__text">
-                <p>Соседи будут рады!</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Борис</p>
+                  <p class="foto__date">(20 часов назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Здесь могла быть ваша цитата о высоком и вечном.</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 215</p>
+                </div>
               </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 666</p>
+            </li>
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/photo-4-tablet.jpg" alt="Фото пользователя">
               </div>
-            </div>
-          </li>
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/photo-3-tablet.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Борис</p>
-                <p class="foto__date">(20 часов назад)</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Серей</p>
+                  <p class="foto__date">(25 часов назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Самая кубанская в мире!</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 4</p>
+                </div>
               </div>
-              <div class="foto__text">
-                <p>Здесь могла быть ваша цитата о высоком и вечном.</p>
+            </li>
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/photo-5-tablet.jpg" alt="Фото пользователя">
               </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 215</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Максим</p>
+                  <p class="foto__date">(40 часов назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Где снег-то?</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 150</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/photo-4-tablet.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Серей</p>
-                <p class="foto__date">(25 часов назад)</p>
+            </li>
+            <li class="foto__item">
+              <div class="foto__header foto__header--hit">
+                <img src="img/catalog/photo-6-tablet.jpg" alt="Фото пользователя">
               </div>
-              <div class="foto__text">
-                <p>Самая кубанская в мире!</p>
+              <div class="foto__content">
+                <div class="foto__user">
+                  <p class="foto__name">Надежда</p>
+                  <p class="foto__date">(45 часов назад)</p>
+                </div>
+                <div class="foto__text">
+                  <p>Всем GM и взаимные лайки!</p>
+                </div>
+                <div class="foto__grade">
+                  <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
+                  <p class="grade__info">Нравится: 2560</p>
+                </div>
               </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 4</p>
-              </div>
-            </div>
-          </li>
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/photo-5-tablet.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Максим</p>
-                <p class="foto__date">(40 часов назад)</p>
-              </div>
-              <div class="foto__text">
-                <p>Где снег-то?</p>
-              </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 150</p>
-              </div>
-            </div>
-          </li>
-          <li class="foto__item">
-            <div class="foto__header foto__header--hit">
-              <img src="img/catalog/photo-6-tablet.jpg" alt="Фото пользователя">
-            </div>
-            <div class="foto__content">
-              <div class="foto__user">
-                <p class="foto__name">Надежда</p>
-                <p class="foto__date">(45 часов назад)</p>
-              </div>
-              <div class="foto__text">
-                <p>Всем GM и взаимные лайки!</p>
-              </div>
-              <div class="foto__grade">
-                <img src="img/catalog/heart.png" alt="Сердечко 'Нравится'">
-                <p class="foto-info">Нравится: 2560</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <p class="foto__slogan">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
-        <div>
-          <img src="img/catalog/photo-7-tablet.jpg" alt="Твоя фотография" class="foto__your">
-          <ul class="foto__settings">
-            <li class="foto__setting"><img src="img/catalog/crop.png" alt="Обрезать"></li>
-            <li class="foto__setting"><img src="img/catalog/fill.png" alt="Фильтр"></li>
-            <li class="foto__setting"><img src="img/catalog/contrast.png" alt="Контраст"></li>
+            </li>
           </ul>
-          <img src="img/Catalog/scale.png" alt="Бегунок настройки" class="foto__slider">
-        </div>
-        <div class="foto__buttons">
-          <button type="submit" class="button foto__button">Запостить</button>
-          <button type="reset" class="button foto__button">Отмена</button>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="page-footer">
-    <div class="page-footer__wrapper">
-      <h2 class="visually-hidden">Логотип</h2>
-      <div class="page-footer__logo">
-        <img src="img/catalog/pink-footer.png" alt="Логотип компании">
-      </div>
-      <div class="page-footer__socials social">
-        <ul class="socials__list">
-          <li class="socials__item"><a href="#" class="social__link socials__link--twitter"><img
-                src="img/catalog/twitter.png" alt="Логотип Твиттера" class="socials__img"></a></li>
-          <li class="socials__item"><a href="#" class="social__link socials__link--facebook"><img
-                src="img/catalog/facebook.png" alt="Логотип Фейсбука" class="socials__img"></a></li>
-          <li class="socials__item"><a href="#" class="social__link socials__link--youtube"><img
-                src="img/catalog/youtube.png" alt="Логотип Ютуба" class="socials__img"></a></li>
-        </ul>
-      </div>
-      <div class="page-footer__copyright copyright">
-        <p class="copyright__text">Разработано</p>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img
-            src="img/catalog/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>
-      </div>
+          <p class="foto__slogan">
+            Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+          </p>
+          <div class="foto__publication">
+            <img src="img/catalog/photo-7-tablet.jpg" alt="Твоя фотография" class="foto__your">
+            <ul class="foto__settings">
+              <li class="foto__setting"><img src="img/catalog/crop.png" alt="Обрезать"></li>
+              <li class="foto__setting"><img src="img/catalog/fill.png" alt="Фильтр"></li>
+              <li class="foto__setting"><img src="img/catalog/contrast.png" alt="Контраст"></li>
+            </ul>
+            <img src="img/Catalog/scale.png" alt="Бегунок настройки" class="foto__slider">
+          </div>
+          <div class="foto__buttons">
+            <button type="submit" class="button button--pink">Запостить</button>
+            <button type="reset" class="button button--grey">Отмена</button>
+          </div>
+        </section>
+      </main>
     </div>
-  </footer>
+
+    <footer class="page-footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="img/mainpage/pink-footer.png" alt="Логотип компании">
+          </div>
+          <div class="footer__socials social">
+            <ul class="socials__list">
+              <li class="socials__item"><a href="#" class="social__link socials__link--twitter"><img
+                    src="img/mainpage/twitter.png" alt="Логотип Твиттера" class="socials__img"></a></li>
+              <li class="socials__item"><a href="#" class="social__link socials__link--facebook"><img
+                    src="img/mainpage/facebook.png" alt="Логотип Фейсбука" class="socials__img"></a></li>
+              <li class="socials__item"><a href="#" class="social__link socials__link--youtube"><img
+                    src="img/mainpage/youtube.png" alt="Логотип Ютуба" class="socials__img"></a></li>
+            </ul>
+          </div>
+          <div class="footer__copyright copyright">
+            <span class="copyright__text">Разработано</span>
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img
+                src="img/mainpage/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

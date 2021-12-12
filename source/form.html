@@ -8,120 +8,155 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
-    <div class="page-header__header">
-      <div class="page-header__logo">
-        <a class="logo">
-          <img class="logo__pic" src="img/catalog/pink.png" alt="Проект Пинк">
-        </a>
-      </div>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"></button><span class="visually-hidden">Открыть меню</span>
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__item">Главная</a>
-          </li>
-          <li class="main-nav__list">
-            <a href="#" class="main-nav__item">Фотографии</a>
-          </li>
-          <li class="main-nav__list">
-            <a href="#" class="main-nav__item">Конкурс</a>
-          </li>
-          <li class="main-nav__list">
-            <a href="#" class="main-nav__item">Html Academy</a>
-          </li>
-        </ul>
-      </nav>
+  <div class="wrapper">
+    <div class="wrapper__content" style="width: 320px;">
+      <header class="page-header">
+        <div class="page__container">
+          <div class="page-header__logo">
+            <a class="logo">
+              <img class="logo__pic" src="img/catalog/pink.png" alt="Проект Пинк">
+            </a>
+          </div>
+          <h2 class="page__title">
+            Конкурс на самое безбашенное путешествие с Пинк
+          </h2>
+          <nav class="main-nav">
+            <button class="main-nav__toggle" type="button"></button><span class="visually-hidden">Открыть меню</span>
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__item">Главная</a>
+              </li>
+              <li class="main-nav__list">
+                <a href="#" class="main-nav__item">Фотографии</a>
+              </li>
+              <li class="main-nav__list">
+                <a href="#" class="main-nav__item">Конкурс</a>
+              </li>
+              <li class="main-nav__list">
+                <a href="#" class="main-nav__item">Html Academy</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="page-main">
+        <h1 class="visually-hidden">Конкурс от проекта Пинк</h1>
+        <form action="https://echo.htmlacademy.ru" class="form">
+          <div class="form__title">
+            <P class="title__text">
+              Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+            </P>
+          </div>
+          <section class="user">
+            <div class="user__container">
+              <div class="form__row">
+                <p class="form__subject subject">Фамилия</p>
+                <input type="text" placeholder="Укажите фамилию *" class="form__input">
+                <p class="form__subject subject">Имя</p>
+                <input type="text" placeholder="Введите ваше имя *" class="form__input">
+                <p class="form__subject subject">Отчество</p>
+                <input type="text" placeholder="Ну и отчество тоже" class="form__input">
+              </div>
+            </div>
+          </section>
+          <section class="achieve">
+            <div class="achieve__container">
+              <p class="achieve__subject subject">Ваши безбашенные достижения в путешествии</p>
+              <div class="form__check">
+                <div class="check">
+                  <input type="checkbox" id="day1" name="day1" value="Selfie" checked>
+                  <label for="day1">Сделал селфи с акулой</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox" id="day2" name="day2" value="Beach" checked>
+                  <label for="day2">Обгорел на пляже</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox" id="day3" name="day3" value="Chuck Norris">
+                  <label for="day3">Видел Чака Норриса</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox" id="day4" name="day4" value="Souvenirs">
+                  <label for="day4">Накупил сувениров</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox" id="day5" name="day5" value="Tower" checked>
+                  <label for="day5">Удержал башню</label>
+                </div>
+                <div class="check">
+                  <input type="checkbox" id="day6" name="day6" value="Hotel">
+                  <label for="day6">Разгромил отель</label>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="connection">
+            <div class="connection__container">
+              <div class="form__row">
+                <p class="form__subject subject">Номер телефона</p>
+                <input type="tel" placeholder="Номер, пожалуйста" class="form__input">
+                <p class="form__subject subject">Адрес почты</p>
+                <input type="email" placeholder="Введите почту *" class="form__input">
+              </div>
+            </div>
+          </section>
+          <section class="apps">
+            <div class="apps__container">
+              <p class="apps__subject subject">С каким приложением путешествовали?</p>
+              <div class="form__check">
+                <div class="apps__check">
+                  <input type="radio" name="day" value="iOS" checked> Pink для iOS
+                </div>
+                <div class="apps__check">
+                  <input type="radio" name="day" value="Android"> Pink на Android
+                </div>
+                <div class="apps__check">
+                  <input type="radio" name="day" value="Windows"> Windows Phone
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="emotion">
+            <div class="emotion__container">
+              <p class="emotion__subject subject">Опишите свои эмоции</p>
+              <div class="form__row">
+                <textarea placeholder="Можно прям в красках, не стесняясь в выражениях"
+                  class="form__input form__input--textarea"></textarea>
+              </div>
+            </div>
+          </section>
+          <div class="form__button">
+            <button type="submit" class="button form__button--green">Отправить форму</button>
+            <p class="form__info">* — обязательные поля</p>
+          </div>
+        </form>
+      </main>
     </div>
-    <h2 class="page-header__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
-  </header>
-  <main class="page-main">
-    <h1 class="visually-hidden">Конкурс от проекта Пинк</h1>
-    <form action="https://echo.htmlacademy.ru" class="form">
-      <h3 class="page-main__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</h3>
-      <section class="user">
-        <div class="user__wrapper">
-          <div class="form__row">
-            <p class="form__subject subject">Фамилия</p>
-            <input type="text" placeholder="Укажите фамилию *" class="form__input">
-            <p class="form__subject subject">Имя</p>
-            <input type="text" placeholder="Введите ваше имя *" class="form__input">
-            <p class="form__subject subject">Отчество</p>
-            <input type="text" placeholder="Ну и отчество тоже" class="form__input">
+    <footer class="page-footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="img/mainpage/pink-footer.png" alt="Логотип компании">
+          </div>
+          <div class="footer__socials social">
+            <ul class="socials__list">
+              <li class="socials__item"><a href="#" class="social__link socials__link--twitter"><img
+                    src="img/mainpage/twitter.png" alt="Логотип Твиттера" class="socials__img"></a></li>
+              <li class="socials__item"><a href="#" class="social__link socials__link--facebook"><img
+                    src="img/mainpage/facebook.png" alt="Логотип Фейсбука" class="socials__img"></a></li>
+              <li class="socials__item"><a href="#" class="social__link socials__link--youtube"><img
+                    src="img/mainpage/youtube.png" alt="Логотип Ютуба" class="socials__img"></a></li>
+            </ul>
+          </div>
+          <div class="footer__copyright copyright">
+            <span class="copyright__text">Разработано</span>
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img
+                src="img/mainpage/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>
           </div>
         </div>
-      </section>
-      <section class="achievements">
-        <div class="achievements__wrapper">
-          <p class="achievements__subject subject">Ваши безбашенные достижения в путешествии</p>
-          <div class="form__check">
-            <input type="checkbox" name="day" value="Selfie" checked> Сделал селфи с акулой
-            <input type="checkbox" name="day" value="Beach" checked> Обгорел на пляже
-            <input type="checkbox" name="day" value="Chuck Norris"> Видел Чака Норриса
-            <input type="checkbox" name="day" value="Souvenirs"> Накупил сувениров
-            <input type="checkbox" name="day" value="Tower" checked> Удержал башню
-            <input type="checkbox" name="day" value="Hotel"> Разгромил отель
-          </div>
-        </div>
-      </section>
-      <section class="contacts">
-        <div class="contacts__wrapper">
-          <div class="form__row">
-            <p class="form__subject">Номер телефона</p>
-            <input type="tel" placeholder="Номер, пожалуйста" class="form__input">
-            <p class="form__subject">Адрес почты</p>
-            <input type="email" placeholder="Введите почту *" class="form__input">
-          </div>
-        </div>
-      </section>
-      <section class="apps">
-        <div class="apps__wrapper">
-          <p class="achievements__subject subject">С каким приложением путешествовали?</p>
-          <div class="form__check">
-            <input type="radio" name="day" value="iOS" checked> Pink для iOS
-            <input type="radio" name="day" value="Android"> Pink на Android
-            <input type="radio" name="day" value="Windows"> Windows Phone
-          </div>
-        </div>
-      </section>
-      <section class="emotion">
-        <div class="emotion__wrapper">
-          <p class="achievements__subject subject">Опишите свои эмоции</p>
-          <div class="form__row">
-            <textarea placeholder="Можно прям в красках, не стесняясь в выражениях"
-              class="form__input form__input--textarea"></textarea>
-          </div>
-        </div>
-      </section>
-      <div class="form__button">
-        <button type="submit" class="button form__button">Отправить форму</button>
-        <p class="form__info">* — обязательные поля</p>
       </div>
-    </form>
-  </main>
-  <footer class="page-footer">
-    <div class="page-footer__wrapper">
-      <h2 class="visually-hidden">Логотип</h2>
-      <div class="page-footer__logo">
-        <img src="img/catalog/pink-footer.png" alt="Логотип компании">
-      </div>
-      <div class="page-footer__socials social">
-        <ul class="socials__list">
-          <li class="socials__item"><a href="#" class="social__link socials__link--twitter"><img
-                src="img/catalog/twitter.png" alt="Логотип Твиттера" class="socials__img"></a></li>
-          <li class="socials__item"><a href="#" class="social__link socials__link--facebook"><img
-                src="img/catalog/facebook.png" alt="Логотип Фейсбука" class="socials__img"></a></li>
-          <li class="socials__item"><a href="#" class="social__link socials__link--youtube"><img
-                src="img/catalog/youtube.png" alt="Логотип Ютуба" class="socials__img"></a></li>
-        </ul>
-      </div>
-      <div class="page-footer__copyright copyright">
-        <p class="copyright__text">Разработано</p>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img
-            src="img/catalog/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 
 </html>

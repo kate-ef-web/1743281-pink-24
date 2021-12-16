@@ -1,64 +1,61 @@
-.foto {
-  &__list {
-    max-width: 280px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
+.foto__list {
+  max-width: 280px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
 
-  &__item {
-    background-color: @grey;
-    margin-bottom: 20px;
-  }
+.foto__item {
+  background-color: @grey;
+  margin-bottom: 20px;
 
-  &__item:last-child {
+  &:last-child {
     margin-bottom: 0;
-  }
-
-  &__content {
-    width: 232px;
-    padding: 26px 17px;
-    display: flex;
-    flex-direction: column;
   }
 }
 
-.foto {
-  &__user {
-    display: flex;
-    margin-bottom: 14px;
-  }
+.foto__content {
+  width: 232px;
+  padding: 26px 17px;
+  display: flex;
+  flex-direction: column;
+}
 
-  &__name {
-    margin-right: 3px;
-    font-weight: 700;
-  }
+.foto__user {
+  display: flex;
+  margin-bottom: 14px;
+}
 
-  &__date {
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 13px;
-  }
+.foto__name {
+  margin-right: 3px;
+  font-weight: 700;
+}
 
-  &__text {
-    margin-bottom: 25px;
-    text-align: left;
-  }
+.foto__date {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.foto__text {
+  margin-bottom: 25px;
+  text-align: left;
 }
 
 .foto__grade {
   display: flex;
   align-items: center;
-
-  img {
-    width: 13px;
-    height: 12px;
-    background-position: center;
-    margin-right: 18px;
-  }
-
-  p {
-    text-transform: uppercase;
-    font-size: 12px;
-    color: @pink;
-  }
 }
+
+.grade__img {
+  width: 13px;
+  height: 12px;
+  background-position: center;
+  margin-right: 18px;
+}
+
+.grade__info {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: @pink;
+}
+

@@ -11,29 +11,29 @@
   <div class="wrapper">
     <div class="wrapper__content">
       <header class="page-header">
-        <div class="page__container">
-          <div class="page-header__logo">
-            <a class="logo">
-              <img class="logo__pic" src="img/mainpage/pink.png" alt="Проект Пинк">
+        <div class="page-header__container">
+          <div class="page-header__logo logo">
+            <a class="logo__pic">
+              <img class="logo__pic-img" src="img/mainpage/pink.png" alt="Проект Пинк">
             </a>
           </div>
-          <h2 class="page__title">
+          <h2 class="page-header__title">
             Фотографии пользователей
           </h2>
           <nav class="main-nav">
             <button class="main-nav__toggle" type="button"></button><span class="visually-hidden">Открыть меню</span>
             <ul class="main-nav__list">
               <li class="main-nav__item">
-                <a href="#" class="main-nav__item">Главная</a>
+                <a href="#" class="main-nav__link">Главная</a>
               </li>
-              <li class="main-nav__list">
-                <a href="#" class="main-nav__item">Фотографии</a>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Фотографии</a>
               </li>
-              <li class="main-nav__list">
-                <a href="#" class="main-nav__item">Конкурс</a>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Конкурс</a>
               </li>
-              <li class="main-nav__list">
-                <a href="#" class="main-nav__item">Html Academy</a>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">Html Academy</a>
               </li>
             </ul>
           </nav>
@@ -61,7 +61,7 @@
                   <p>Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе,
                     задавайте свои вопросы!</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 215</p>
                 </div>
@@ -79,7 +79,7 @@
                 <div class="foto__text">
                   <p>Вчера он на луну летал, сегодня в руки к нам попал.</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 356</p>
                 </div>
@@ -97,7 +97,7 @@
                 <div class="foto__text">
                   <p>Соседи будут рады!</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 666</p>
                 </div>
@@ -115,7 +115,7 @@
                 <div class="foto__text">
                   <p>Здесь могла быть ваша цитата о высоком и вечном.</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 215</p>
                 </div>
@@ -133,7 +133,7 @@
                 <div class="foto__text">
                   <p>Самая кубанская в мире!</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 4</p>
                 </div>
@@ -151,7 +151,7 @@
                 <div class="foto__text">
                   <p>Где снег-то?</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 150</p>
                 </div>
@@ -169,7 +169,7 @@
                 <div class="foto__text">
                   <p>Всем GM и взаимные лайки!</p>
                 </div>
-                <div class="foto__grade">
+                <div class="foto__grade grade">
                   <img src="img/catalog/heart.png" class="grade__img" alt="Сердечко 'Нравится'">
                   <p class="grade__info">Нравится: 2560</p>
                 </div>
@@ -188,31 +188,31 @@
             </ul>
             <img src="img/Catalog/scale.png" alt="Бегунок настройки" class="foto__slider">
           </div>
-          <div class="foto__buttons">
-            <button type="submit" class="button button--pink">Запостить</button>
-            <button type="reset" class="button button--grey">Отмена</button>
+          <div class="foto__buttons button">
+            <button type="submit" class="button__send button button--pink">Запостить</button>
+            <button type="reset" class="button__cancel button button--grey">Отмена</button>
           </div>
         </section>
       </main>
     </div>
 
     <footer class="page-footer">
-      <div class="footer__container">
-        <div class="footer__content">
-          <div class="footer__logo">
+      <div class="page-footer__container">
+        <div class="page-footer__content">
+          <div class="page-footer__logo">
             <img src="img/mainpage/pink-footer.png" alt="Логотип компании">
           </div>
-          <div class="footer__socials social">
-            <ul class="socials__list">
-              <li class="socials__item"><a href="#" class="social__link socials__link--twitter"><img
-                    src="img/mainpage/twitter.png" alt="Логотип Твиттера" class="socials__img"></a></li>
-              <li class="socials__item"><a href="#" class="social__link socials__link--facebook"><img
-                    src="img/mainpage/facebook.png" alt="Логотип Фейсбука" class="socials__img"></a></li>
-              <li class="socials__item"><a href="#" class="social__link socials__link--youtube"><img
-                    src="img/mainpage/youtube.png" alt="Логотип Ютуба" class="socials__img"></a></li>
+          <div class="page-footer__social social">
+            <ul class="social__list">
+              <li class="social__item"><a href="#" class="social__link social__link--twitter"><img
+                    src="img/mainpage/twitter.png" alt="Логотип Твиттера" class="social__img"></a></li>
+              <li class="social__item"><a href="#" class="social__link social__link--facebook"><img
+                    src="img/mainpage/facebook.png" alt="Логотип Фейсбука" class="social__img"></a></li>
+              <li class="social__item"><a href="#" class="social__link social__link--youtube"><img
+                    src="img/mainpage/youtube.png" alt="Логотип Ютуба" class="social__img"></a></li>
             </ul>
           </div>
-          <div class="footer__copyright copyright">
+          <div class="page-footer__copyright copyright">
             <span class="copyright__text">Разработано</span>
             <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"> <img
                 src="img/mainpage/html-academy.png" alt="Логотип компании HtmlAcademy"> </a>

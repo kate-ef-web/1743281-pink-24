@@ -3,39 +3,32 @@
   display: flex;
   align-items: center;
   padding-top: 28px;
+}
 
-  &__container {
-    max-width: 280px;
-    margin: 0 auto;
+.promo__container {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.promo__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+.promo__item {
+  display: inline-flex;
+  margin-right: 35px;
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 
-.download__button {
-  .button;
+.promo__text {
+  color: @white;
+  font-weight: 300;
   margin-bottom: 38px;
-
-  &--white {
-    background-color: @darkblue;
-  }
-}
-
-.download {
-  &__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 31px;
-  }
-
-  &__item:not(:last-child) {
-    display: inline-flex;
-    margin-right: 35px;
-  }
-
-  &__text {
-    color: @white;
-    font-weight: 300;
-    margin-bottom: 38px;
-    line-height: 24px;
-  }
+  line-height: 24px;
 }

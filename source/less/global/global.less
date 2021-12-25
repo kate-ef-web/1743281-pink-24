@@ -40,7 +40,7 @@ a {
   }
 }
 
-ul li {
+.list {
   list-style: none;
 }
 
@@ -54,4 +54,26 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.title {
+  font-weight: 300;
+  color: @text;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.subject {
+  color: @pink;
+  text-transform: uppercase;
+  line-height: 18px;
+  margin-bottom: 17px;
+}
+
+.input {
+  .input;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
